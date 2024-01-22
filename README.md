@@ -4,9 +4,9 @@ Personal Website
 
 # Commands
 
-Requires node, yarn
-
 ```
+nvm use
+
 make              install dependencies
 make dev          start dev server
 make build        build for production
