@@ -9,6 +9,9 @@ dev:
 build: clean-build
 	yarn build
 
+lint:
+	yarn run eslint --ext .jsx,.js .
+
 preview: build
 	yarn preview
 
