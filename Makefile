@@ -10,7 +10,7 @@ build: clean-build
 	yarn build
 
 lint:
-	yarn run eslint --ext .jsx,.js .
+	yarn lint
 
 preview: build
 	yarn preview
